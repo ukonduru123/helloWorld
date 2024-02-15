@@ -11,6 +11,7 @@ def hello():
 
 @app.route('/about')
 def about():
+    hello_url = '/hello'
     return render_template('about.html')
 
 if __name__ == '__main__':
