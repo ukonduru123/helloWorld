@@ -11,7 +11,8 @@ def hello():
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template('about.html', hello={'html': 'hello.html'})
+
 
 if __name__ == '__main__':
     app.run()
