@@ -1,0 +1,37 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style all paragraphs with at least two rules.*/
+p {
+  font-family: Andale Mono monospace ;
+  color: slategray;
+}
+/* Style all level two headers with at least two rules */
+h2 {
+    background-color: lightgray ;
+    color: #33334d;
+}
+/* Style all tables with a border and border color */
+table {
+  border: 2px solid #33334d;
+  border-collapse: collapse;
+}
+/* Style paragraph three */
+ #paragraph-three{
+    font-weight: bolder;
+    color: cadetblue;
+ }
+/* Style class element */
+.fun-font {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 18px;
+  color: steelblue;
+}
+/* Style the image sizing */
+.logo {
+  width: 200px;
+  height: auto;
+}
