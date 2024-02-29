@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me Page</title>
+    <!--Linking my Css stylesheet -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" >
+</head>
+<body>
+    <header>
+        <h1>About Unnathi Konduru</h1>
+    </header>
+    <!-- General Information about me -->
+    <h2>Basic Information</h2>
+    <p> My name is <strong>Unnathi Konduru</strong>. I am <em>twenty years old </em> and I am from Howard County Maryland. I love fashion, music and art.</p>
+    <!-- Information about my education -->
+    <h2>Education Information</h2>
+    <p>I am a <strong>Junior</strong> <em>Information Systems and OMBA major</em> at the University of Maryland. </p>
+    <p>The classes I am currently enrolled in are:</p>
+    <ol>
+        <li>BMGT407</li>
+        <li>BMGT430</li>
+        <li>BMGT434</li>
+    </ol>
+    <p>Here are some extracurriculars I am involved in:</p>
+    <ul>
+        <li>OMBA Society</li>
+        <li>Women in Business</li>
+        <li>Smith Start Mentors</li>
+    </ul>
+    <p>Here are some other classes I have taken and the semester I took them:</p>
+    <!-- Create a table for past courses I have taken -->
+    <table>
+        <caption>Past Courses</caption>
+        <tr>
+            <th>Course</th>
+            <th>Semester Taken</th>
+        </tr>
+        <tr>
+            <td>BMGT385</td>
+            <td>Fall 2023</td>
+        </tr>
+        <tr>
+            <td>BMGT380</td>
+            <td>Fall 2023</td>
+        </tr>
+        <tr>
+            <td>BMGT332</td>
+            <td>Spring 2023</td>
+        </tr>
+    </table>
+    <!-- Other paragraphs about interests and hobbies -->
+    <p id="paragraph-three">Currently, I am learning many new skills including technical ones and personal ones. I am learning about full stack development and how to play the piano and guitar. </p>
+    <p class="fun-font"> I am very interested in shopping sustainably so I thrift a majority of my clothing. I am also taking an interest into watching F1 racing recently. </p>
+    <!-- Link to hello and other websites -->
+    <p>Access the hello site<a href="/hello">by clicking here!</a></p>
+    <p>Here are some of my other favorite websites:</p>
+    <ul>
+        <li><a href="https://www.pinterest.com/" target="_blank">Pinterest (Opens on new page)</a></li>
+        <li><a href="https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp" target="_self">Spotify</a></li>
+    </ul>
+    <!-- Add image of Smith School Logo -->
+    <img src="https://terpconnect.umd.edu/~jbono/bmgt407/images/smith-logo.png" alt="Robert H. Smith logo" class="logo">
+</body>
+</html>
