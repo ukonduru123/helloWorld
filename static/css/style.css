@@ -28,4 +28,17 @@ table {
 .logo {
   width: 200px;
   height: auto;
+
+/* Styling the contact and fav courses page*/
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border: 1px solid #000000;
+    padding: 20px;
 }
