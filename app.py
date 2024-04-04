@@ -5,6 +5,7 @@ from datetime import datetime as dt
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'university.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -45,7 +46,7 @@ def student_create():
     elif request.method == 'POST':
         first_name = request.form['first_name']
         last_name = request.form['last_name']
-        email = request.form['email_address']
+        email = request.form['email']
         major_id = request.form['major_id']
         birth_date = request.form['birth_date']
         is_honors = True if 'is_honors' in request.form else False
